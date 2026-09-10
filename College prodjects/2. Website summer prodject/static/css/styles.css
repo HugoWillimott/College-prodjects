@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+}
+
+main {
+    background-color: #fdf5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #283D3B, #197278);
+}
+
+body {
+    background-color: #fdf5f5;
+}
+
+h2 {
+    color: #197278;
+    font-size: 50px;
+}
+
+.logo {
+    font-size: 30px;
+    margin: 2rem;
+    color: #B7A3F3;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    margin: 2rem;
+}
+
+nav a {
+    color: #B7c3F3;
+    text-decoration: none;
+    font-weight: 10;
+    font-size: 20px;
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    color: #1472ff
+}
+
+.hero-section {
+    display: flex;
+    margin-top: 7rem;
+    justify-self: center;
+    
+}
+
+.hero-text {
+    margin-top: 5rem;
+    margin-right: 15rem;
+    margin-bottom: 15rem;
+    color: #197278;
+
+}
+
+.hero-text1 {
+    font-size: 35px;
+}
+
+.hero-text2 {
+    font-size: 70px;
+    margin-left: 20;
+}
+
+.hero-text3 {
+    font-size: 15px;
+}
+
+.register-button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #283D3B;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ccc5e0;
+}
+
+.hero-image {
+    margin-left: 1rem;
+    
+}
+
+.services-section {
+    justify-self: center;
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+
+.services-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+}
+
+.services-image {
+    max-width: 710px;
+    max-height: 710px;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    background-color: #283D3B;
+    background: linear-gradient(135deg, #283D3B, #197278);
+}
+
+.contact-details {
+    padding-left: 15rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    color: #B7A3F3;
+}
+
+.hours {
+    padding-right: 15rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #B7c3F3;
+}
+
+.register {
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #283D3B;
+    border-radius: 2rem;
+    justify-content: space-between;
+}
+
+.register-image {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.register-image-1 {
+    max-width: 710px;
+    max-height: 710px;
+    border-radius: 1rem;
+}
+
+.register-details {
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-right: 15rem;
+    font-size: 45px;
+    color: #a093c7;
+}
+
+.line-1 {
+    padding-left: 9rem;
+}
+
+.confirm-button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #a093c7;
+    font-size: 25px;
+    text-decoration: none;
+    color: #283D3B;
+    margin-left: 10rem;
+    max-width: 5rem;
+}
+
+.text-box {
+    height: 2rem;
+    padding-top: 1rem;
+}
+
+.Login {
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #283D3B;
+    border-radius: 2rem;
+    justify-content: space-between;
+}
+
+.Login-image {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.Login-image-1 {
+    max-width: 710px;
+    max-height: 710px;
+    border-radius: 1rem;
+}
+
+.Login-details {
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-right: 25rem;
+    font-size: 45px;
+    color: #a093c7;
+}
+
+.line-1 {
+    padding-left: 9rem;
+}
+
+.Login-button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #a093c7;
+    font-size: 25px;
+    text-decoration: none;
+    color: #283D3B;
+    margin-left: 8rem;
+    max-width: 5rem;
+    margin-top: 3rem;
+}
+
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #a093c7;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.about-us-page {
+    display: flex;
+}
+
+.top {
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.top-titel {
+    margin-right: 10rem;
+}
+
+.top-text {
+    margin-right: 20rem;
+}
+
+.about-us-image {
+    background-color: #fdf5f5;
+    width: 1500px;
+    height: 850px;
+}
